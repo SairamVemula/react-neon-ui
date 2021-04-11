@@ -1,4 +1,10 @@
 .a {
+    position: relative;
+    display: inline-block;
+    padding: 5px;
+    letter-spacing: 4px;
+    text-decoration: none;
     font-size: 5rem;
-    line-height: 5px;
+    overflow: hidden;
+    transition: 0.2s;
 }

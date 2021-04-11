@@ -1,6 +1,7 @@
 import Button from './components/Button'
 import Text from './components/Text'
 import A from './components/A'
+import Checkbox from './components/Checkbox'
 
 // interface Props {
 //   text: string
@@ -10,4 +11,4 @@ import A from './components/A'
 //   return <div className={styles.test}>Example Component: {text}</div>
 // }
 
-export { Button, Text, A };
+export { Button, Text, A, Checkbox };

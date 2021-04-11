@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Button, Text, A } from 'react-neon-ui'
+import { Button, Text, A, Checkbox } from 'react-neon-ui'
 import 'react-neon-ui/dist/index.css'
 
 const App = () => {
@@ -16,6 +16,8 @@ const App = () => {
         <A />
         <A color="Carrot" underline />
       </div>
+
+      <Checkbox color="Lime" />
     </div >
   )
 }
