@@ -1,0 +1,50 @@
+.p {
+    margin: 0 10px;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 18px;
+    min-width: 200px;
+}
+
+.svg {
+    box-sizing: border-box;
+}
+
+.list {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    left: 0;
+    max-height: 320px;
+    overflow: auto;
+    z-index: 100;
+}
+
+.listItem {
+    display: block;
+    padding: 4px 15px;
+    border-bottom: solid 1px;
+    cursor: pointer;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.list::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+.list {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
